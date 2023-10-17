@@ -9,13 +9,13 @@ The virtual machine uses a network bridge and a static IP address.
 
 The IP address is set to the network 192.168.1.0/24. And it uses the IP address 192.168.1.165.
 
-Run MinGW-w64.
+Run as Administrator PowerShell.
 
 Eexecute command ``` vagrant up ```
 
 ####  Vagrantfile steps:
 
-1. dwnld_from_github.sh will download and unzip files from https://github.com/FaztWeb/php-mysql-crud to tempo folder.
+1. Download and unzip files from https://github.com/FaztWeb/php-mysql-crud to tempo folder.
 (tempo folder is shared folder for docker)
 
 2. Vagrant deploy ubuntu container with docker.

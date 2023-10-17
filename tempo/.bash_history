@@ -366,3 +366,19 @@ exit
 docker-compose up
 учше
 exit
+ls
+ls
+wget
+wget https://github.com/FaztWeb/php-mysql-crud/archive/refs/heads/master.zip
+unzip master.zip
+tar -xf master.zip
+sudo apt install unzip
+sudo apt -y install unzip
+unzip master.zip
+cp -R php-mysql-crud-master/. .
+echo "Raname hostname" 
+sed 's/localhost/db/g' db.php > db1.php
+mv db1.php db.php
+rm -R php-mysql-crud-master
+rm master.zip
+exit
