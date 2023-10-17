@@ -1,13 +1,11 @@
 FRST_STATIC_IP     =   "192.168.1.165"
 
-.\wget.exe https://github.com/FaztWeb/php-mysql-crud/archive/refs/heads/master.zip
-.\unzip.exe .\master.zip
-
+ 
 
 Vagrant.configure(2) do |config|
   config.trigger.before [:up, :provision, :reload] do |trigger|
-  trigger.info = "Running recongfig_configcred.sh locally..."
-  trigger.run = {path: "recongfig_configcred.sh"}
+  trigger.info = "Running dwnld_from_github.sh locally..."
+  trigger.run = {path: "dwnld_from_github.sh"}
 
       # Install fourth-unit
       config.vm.define "ubuntu-unit" do |frth|
@@ -24,4 +22,5 @@ Vagrant.configure(2) do |config|
             v.cpus = 2
           end
       end
+  end
 end
