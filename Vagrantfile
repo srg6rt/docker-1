@@ -5,7 +5,7 @@ FRST_STATIC_IP     =   "192.168.1.165"
 Vagrant.configure(2) do |config|
   config.trigger.before [:up, :provision, :reload] do |trigger|
   trigger.info = "Running dwnld_from_github.sh locally..."
-  trigger.run = {path: "dwnld_from_github.sh"}
+  trigger.run = {path: "./dwnld_from_github.sh"}
 
       # Install fourth-unit
       config.vm.define "ubuntu-unit" do |frth|

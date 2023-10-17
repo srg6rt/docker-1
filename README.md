@@ -9,7 +9,7 @@ The virtual machine uses a network bridge and a static IP address.
 
 The IP address is set to the network 192.168.1.0/24. And it uses the IP address 192.168.1.165.
 
-Run as Administrator PowerShell.
+Run MinGW-w64.
 
 Eexecute command ``` vagrant up ```
 
