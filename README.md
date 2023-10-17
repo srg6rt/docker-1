@@ -24,15 +24,19 @@ Eexecute command ``` vagrant up ```
 
 
 PHP MySQL CRUD 
+
 http://192.168.1.165:8082/index.php
 
 phpMyAdmin
+
 http://192.168.1.165:8081/
+
 Login: root
 Password: password123
 
 
 For Putty:
+
 192.168.1.165:22
 
 Login: vagrant
