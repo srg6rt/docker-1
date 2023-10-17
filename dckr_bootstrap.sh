@@ -32,7 +32,7 @@ rm master.zip
 echo "Raname hostname" 
 sed 's/localhost/db/g' db.php > db1.php
 mv db1.php db.php
-
+sleep 3
 #------------------Install docker----------------------
 
 
@@ -41,6 +41,8 @@ sudo groupadd -f docker
 #sudo usermod -aG docker $USER
 
 sudo usermod -aG docker vagrant
+
+sudo usermod -aG www-data vagrant
 
 newgrp docker
 
@@ -69,5 +71,5 @@ sudo docker version
 
 #---------------------------------run multi-container docker applications in vagrant container------------------
 
-#docker-compose up -d
+docker-compose up -d
 

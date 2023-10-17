@@ -382,3 +382,44 @@ mv db1.php db.php
 rm -R php-mysql-crud-master
 rm master.zip
 exit
+docker-compose up -d
+docker ps
+docker-compose down
+docker-compose up
+docker-compose down
+docker-compose up -d
+ls
+docker exec -it vagrant-www-1 bash
+ls -la
+sudo docker version
+ls -la
+cat db.php 
+exit
+docker ps
+docker volumes ls
+docker volume ls
+docker exec -it cdd43a91413f bash
+docker exec -it 1e61c64927c2 bash
+exit
+ls
+ls -la
+docker ps
+docker exec -it c1fc26934a67 bash
+sudo usermod -aG www-data vagrant
+exit
+docker ps
+cat /proc/sys/net/ipv4/ip_forward
+curl http://192.168.1.165:8081
+curl http://192.168.1.165:8082
+ip a
+curl http://192.168.1.165:8082
+iptables -l
+iptables -L
+sudo iptables -L
+sudo service iptables stop
+sudo iptables --list
+docker ps
+docker-compose down
+docker-compose up
+docker-compose up -d
+exit
