@@ -3,7 +3,6 @@ services:
   www:
     build:
       dockerfile: ./www/Dockerfile
-
     restart: on-failure
     volumes:
       - "./:/var/www/html"
