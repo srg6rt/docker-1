@@ -10,8 +10,6 @@ sudo apt -y install unzip
 
 #------------------ Download and unzip files from https://github.com/FaztWeb/php-mysql-crud to tempo folder. -----------
 
-echo "Run dwnld_from_github.sh"
-
 echo "Download from github zip archive"
 wget https://github.com/FaztWeb/php-mysql-crud/archive/refs/heads/master.zip
 
