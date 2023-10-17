@@ -1,4 +1,4 @@
-I'm using a vagrant container for docker because docker is crashing my windows system.
+I'm using a vagrant container for docker because docker desktop for windows is crashing my windows system.
 
 1. #### Install vagrant on Windows system
 
@@ -20,8 +20,7 @@ Eexecute command ``` vagrant up ```
 
 2. Vagrant deploy ubuntu container with docker.
 
-3. Vagrant run ``` docker-compose up -d ```  command in container. 
-
+3. Last command  ``` docker-compose up -d ```  in dckr_bootstrap.sh  will run multi-container docker applications in vagrant container. 
 
 
 PHP MySQL CRUD 
